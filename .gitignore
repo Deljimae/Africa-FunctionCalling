@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Private runtime outputs and credentials
+.env
+.env.*
+!.env.example
+runs/
+__pycache__/
+*.pyc
+audits/bfcl_core/scoring_fixture_results.json

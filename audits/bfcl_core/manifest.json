@@ -1,0 +1,37 @@
+{
+  "revision": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+  "files": {
+    "questions.jsonl": {
+      "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_multiple.json",
+      "sha256": "aef168155ebd74b7ac2401198b201343bc7d16d7a3d7e0d4e6d8ee82c6969b2a",
+      "bytes": 316583
+    },
+    "answers.jsonl": {
+      "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/possible_answer/BFCL_v4_multiple.json",
+      "sha256": "244e00ce9395df948bcafc7bee64e8f9c87ef70887587d83cae45b13699f3047",
+      "bytes": 32254
+    },
+    "ast_checker.py": {
+      "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/eval_checker/ast_eval/ast_checker.py",
+      "sha256": "2aae7a68461a8f76c0be3894c8901b66b56967a1989d3ab066051e3fb97f1538",
+      "bytes": 25032
+    },
+    "dataset_README.md": {
+      "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/README.md",
+      "sha256": "93119d83df28fee0a9f3ea41b0c6a947aad9f7ba4334ae89fef41c74b67b208d",
+      "bytes": 20277
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "hf_dataset_card.md": {
+      "url": "https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard/raw/main/README.md",
+      "sha256": "22234ad32a0bb921809278d01ed65e932b4e611690dfa17d1e0eb6ba74ab4e27",
+      "bytes": 15282
+    }
+  },
+  "note": "HF card is dated licensing evidence, not commit-pinned task data.",
+  "retrieved_date": "2026-10-18"
+}
