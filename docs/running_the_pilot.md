@@ -41,3 +41,20 @@ python3 scripts/run_inference_pilot.py --output runs/llama_development --rescore
 
 Each run records checkpoint revision, environment versions, responses, timing,
 memory and scores. The 12 development IDs must remain outside the main test.
+
+## What is scored
+
+The model receives one request and its candidate tool definitions, not the
+reference answer. It returns one JSON object with `name` and `arguments`.
+The runner records three checks: valid output format, correct function selection,
+and complete-call correctness against the pinned reference.
+
+Scoring uses selected functions from the saved upstream BFCL checker, not live
+execution of external services. The local JSON parser rejects extra prose and
+malformed output. A checker error is recorded separately from a wrong model
+answer, and saved responses can be rescored without regenerating them.
+
+This pilot uses English development tasks. It does not measure the quality of
+the translations or establish multilingual model performance. See the
+[development data notes](../data/development_v1/README.md) for the split and
+source records.
